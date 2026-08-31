@@ -138,7 +138,7 @@ if nested:
 
 if copy_to_new_dir:
     if os.listdir(output_folder):
-        raise MinnertSays(f"The output folder ({output_folder}) is not empty. Make sure you move or delete all current files before copying the subset files to the folder. This way the output folder only contians your subset. ")
+        raise GouweGozerSays(f"The output folder ({output_folder}) is not empty. Make sure you move or delete all current files before copying the subset files to the folder. This way the output folder only contians your subset. ")
     if nested:
         # Iterate over each file and copy it to the destination folder
         for i in range(0, len(subsample)):
